@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+.vacancy__item{
+  max-width: calc(773px - 24px);
+  border: 1px solid #EBECEE;
+  border-radius: 12px;
+  padding: 24px;
+  position: relative;
+  margin: 8px auto;
+}
+
+.item__name{
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: 600;
+  color: #5E96FC;
+  text-align-last: left;
+}
+
+.item__conditions{
+  display: flex;
+  justify-content: space-between;
+  width: 340px;
+  margin-top: 12px;
+}
+
+.conditions__time{
+  position: relative;
+  font-size: 16px;
+  font-family: Inter;
+}
+
+.conditions__time::before{
+  display: block;
+  content:'';
+  position: absolute;
+  left: -12px;
+  top: calc(50% - 2.5px);
+  bottom: 0;
+  right: 0;
+  background-color: #7B7C88;
+  border-radius: 50%;
+  width: 5px;
+  height: 5px;
+}
+
+.conditions__salary{
+  color: #232134;
+  font-family: Inter;
+  font-weight: 600;
+}
+
+.vacancy__location{
+  margin-top: 12.5px;
+  display: flex;
+  align-items: center;
+}
+
+.location__text{
+  margin-left: 8px;
+}
+
+.star{
+  position: absolute;
+  top: 24px; right: 24px;
+}
