@@ -1,16 +1,10 @@
 import './App.css';
-import VacancyItem from './components/vacancies/vacancyItem/vacancyItem';
+import VacancyItems from './components/vacancies/vacancyItems/vacancyItems';
 
 function App() {
   return (
     <div className="App">
-      <VacancyItem/>
-      <VacancyItem/>
-      <VacancyItem/>
-      <VacancyItem/>
-      <VacancyItem/>
-      <VacancyItem/>
-      <VacancyItem/>
+      <VacancyItems/>
     </div>
   );
 }

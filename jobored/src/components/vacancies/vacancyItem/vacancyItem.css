@@ -63,4 +63,63 @@
 .star{
   position: absolute;
   top: 24px; right: 24px;
+  cursor: pointer;
+  stroke: "#ACADB9";
 }
+
+.star.active{
+  fill: #5E96FC;
+  stroke: #5E96FC;
+  stroke-width: 30px;
+}
+
+/* .favorites {
+  position: absolute;
+  top: 20px; right: 20px;
+  display: block;
+  color: red;
+  width: 0px;
+  height: 0px;
+  border-right:  10px solid transparent;
+  border-bottom: 7px  solid red;
+  border-left:   10px solid transparent;
+  -moz-transform:    rotate(35deg);
+  -webkit-transform: rotate(35deg);
+  -ms-transform:     rotate(35deg);
+  -o-transform:      rotate(35deg);
+}
+
+.favorites:before {
+  border-bottom: 8px solid red;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: -6px;
+  left: -7px;
+  display: block;
+  content: '';
+  -webkit-transform: rotate(-35deg);
+  -moz-transform:    rotate(-35deg);
+  -ms-transform:     rotate(-35deg);
+  -o-transform:      rotate(-35deg);
+}
+
+.favorites:after {
+  position: absolute;
+  display: block;
+  color: red;
+  top: 0px;
+  left: -10.5px;
+  width: 0px;
+  height: 0px;
+  border-right: 10px solid transparent;
+  border-bottom: 7px solid red;
+  border-left: 10px solid transparent;
+  -webkit-transform: rotate(-70deg);
+  -moz-transform:    rotate(-70deg);
+  -ms-transform:     rotate(-70deg);
+  -o-transform:      rotate(-70deg);
+  content: '';
+} */
